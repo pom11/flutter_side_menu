@@ -35,7 +35,7 @@ class SideMenuItemsAnimationData {
     this.duration = _defaultDuration,
   });
   static const double _defaultMainScale = 0.95;
-  static const Duration _defaultDuration = Duration(milliseconds: 500);
+  static const Duration _defaultDuration = Duration.zero;
 
   final double mainScale;
   final Duration duration;
