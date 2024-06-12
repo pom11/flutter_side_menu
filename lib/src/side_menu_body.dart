@@ -65,7 +65,7 @@ class SideMenuBody extends StatelessWidget {
     if (animData != null) {
       return AnimatedScale(
         scale: isOpen ? 1 : animData.mainScale,
-        duration: animData.duration,
+        duration: Duration.zero,
         child: child,
       );
     }
