@@ -10,7 +10,7 @@ class Constants {
   static const double itemSelectedLineWidth = 4.0;
 
   /// Durations
-  static const Duration duration = Duration(milliseconds: 200);
+  static const Duration duration = Duration(milliseconds: 0);
 
   /// Colors
   static const Color selectedColor = Color(0xff0055c3);
